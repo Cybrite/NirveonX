@@ -49,8 +49,8 @@ export default function Home() {
           {["Innovation", "Excellence", "Reliability", "Vision"].map(
             (value, i) => (
               <div key={i} className="flex flex-col items-center space-y-2">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <span className="text-primary font-bold">{i + 1}</span>
+                <div className="w-12 h-12 rounded-full bg-[white]/100 flex items-center justify-center">
+                  <span className="text-black font-bold">{i + 1}</span>
                 </div>
                 <span className="text-sm font-medium">{value}</span>
               </div>
